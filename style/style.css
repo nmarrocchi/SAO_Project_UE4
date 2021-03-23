@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Banner{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-image: linear-gradient(to right top, #0f4596, #005da7, #0073b4, #0089be, #189fc6);    
+    height: 10%;
+    text-align: center;
+}
+
+.Banner h1, .Banner h4{
+    margin: 0.7%;
+}
