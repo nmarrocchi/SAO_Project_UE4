@@ -25,7 +25,7 @@ a:active {color: white; text-decoration: none;}
 
 /* CSS for phones*/
 
-@media (max-width: 1242px){
+@media (max-height: 2778px){
 
     h1{font-size: 12px; color: grey;}
 
