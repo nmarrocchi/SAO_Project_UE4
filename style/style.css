@@ -16,15 +16,16 @@ a:hover {color: white; text-decoration: underline;}
 a:active {color: white; text-decoration: none;}
 
 html{
+    font-family: "sao_font";
     background-image: url(../img/Background_Computer.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: "sao_font";
+    background-attachment: fixed;
 }
 
 .Banner{
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0px;
     background-image: linear-gradient(to right top, #0f4596, #005da7, #0073b4, #0089be, #189fc6);    
     height: max-content;
@@ -39,6 +40,12 @@ html{
 h1{font-size: xx-large;}
 
 h2{font-size: x-large;}
+
+.content{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+}
 
 /* CSS for phones*/
 
