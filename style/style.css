@@ -4,6 +4,12 @@
     padding: 0%;
 }
 
+/* Add custom font */
+@font-face {
+	font-family: "sao_font";
+    src: url("../font/SAOWelcome-Regular.otf");
+}
+
 a:link {color: white; text-decoration: none;}
 a:visited {color: white; text-decoration: none;}
 a:hover {color: white; text-decoration: underline;}
@@ -13,6 +19,7 @@ html{
     background-image: url(../img/Background_Computer.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: "sao_font";
 }
 
 .Banner{
@@ -42,9 +49,8 @@ h2{font-size: x-large;}
     }
 
     h1{
-        font-size: 21px;
-        font-weight: bold;
+        font-size: 30px;
     }
 
-    h2{font-size: medium;}
+    h2{font-size: x-large;}
 }

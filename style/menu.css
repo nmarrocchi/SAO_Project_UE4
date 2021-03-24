@@ -32,7 +32,7 @@ a:active {color: white; text-decoration: none;}
 @media (max-width: 1284px){
 
     .menu li{
-        margin: 2% 3%;
-        padding: 1.2% 2%;
+        margin: 2% 2%;
+        padding: 1.5% 3%;
     }
 }
