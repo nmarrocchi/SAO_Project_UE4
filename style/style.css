@@ -1,7 +1,13 @@
+
 *{
     margin: 0%;
     padding: 0%;
 }
+
+a:link {color: white; text-decoration: none;}
+a:visited {color: white; text-decoration: none;}
+a:hover {color: white; text-decoration: underline;}
+a:active {color: white; text-decoration: none;}
 
 .Banner{
     width: 100%;
@@ -10,6 +16,7 @@
     background-image: linear-gradient(to right top, #0f4596, #005da7, #0073b4, #0089be, #189fc6);    
     height: max-content;
     text-align: center;
+    border-bottom: solid 2px black;
 }
 
 .Banner h1, .Banner h4{
@@ -20,6 +27,6 @@ h1{
     font-size: xx-large;
 }
 
-h4{
-    font-size: medium;
+h2{
+    font-size: x-large;
 }

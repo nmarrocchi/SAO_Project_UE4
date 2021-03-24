@@ -13,10 +13,11 @@
 
     <div class="Banner">
         <h1>Welcome into a new VRMMO Experience</h1>
-        <h4> Sword Art Online in Unreal Engine 4 </h4>
+        <h2> Sword Art Online in Unreal Engine 4 </h2>
+        <?php include "menu.php" ?>
     </div>
     
-    <?php include "menu.php" ?>
+    
 
 </body>
 </html>

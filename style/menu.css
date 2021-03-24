@@ -1,8 +1,25 @@
+
+a:hover {color: white; text-decoration: none;}
+
 .menu{
-    position: fixed;
-    width: 7%;
-    height: 100%;
-    background-color: black;
+    width: 100%;
     text-align: center;
     color: white;
+    margin: 0.5% auto;
+    list-style-type: none;
+}
+
+.menu li{
+    display: inline-block;
+    border: solid black 1px;
+    width: 3%;
+    min-width: max-content;
+    margin: 0% 0.3%;
+    padding: 0.3% 0.7%;
+    border-radius: 10px;
+    background-color: rgb(0, 85, 85);
+}
+
+.menu li:hover{
+    background-color: rgb(0, 119, 119);
 }
