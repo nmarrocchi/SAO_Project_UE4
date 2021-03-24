@@ -17,6 +17,17 @@
         <?php include "menu.php" ?>
     </div>
     
+    <?php
+function resol()
+{
+$resol='<script type="text/javascript">
+               document.write(""+screen.width+"*"+screen.height+"");
+</script>';
+return $resol;
+}
+$var_resol=resol();
+echo $var_resol;
+?>
     
 
 </body>
