@@ -41,5 +41,10 @@ h2{font-size: x-large;}
         background-image: url(../img/Background_Phone.png);
     }
 
-    h1{color: red;}
+    h1{
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    h2{font-size: medium;}
 }

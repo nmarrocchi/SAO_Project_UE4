@@ -16,19 +16,6 @@
         <h2> Sword Art Online in Unreal Engine 4 </h2>
         <?php include "menu.php" ?>
 
-        <p>
-        <?php
-function resol()
-{
-$resol='<script type="text/javascript">
-               document.write(""+screen.width+"*"+screen.height+"");
-</script>';
-return $resol;
-}
-$var_resol=resol();
-echo $var_resol;
-?>
-</p>
     </div>
     
 
