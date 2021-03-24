@@ -35,7 +35,7 @@ h2{font-size: x-large;}
 
 /* CSS for phones*/
 
-@media (max-width: 700px){
+@media (min-width: 700px){
 
     html{
         background-image: url(../img/Background_Phone.png);
