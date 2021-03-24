@@ -27,7 +27,7 @@ a:active {color: white; text-decoration: none;}
 
 @media (max-width: 767px){
 
-    h1{font-size: 12px;}
+    h1{font-size: 12px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
     h2{font-size: 8px;}
 }
