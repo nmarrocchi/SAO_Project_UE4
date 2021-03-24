@@ -15,9 +15,9 @@
         <h1>Welcome into a new VRMMO Experience</h1>
         <h2> Sword Art Online in Unreal Engine 4 </h2>
         <?php include "menu.php" ?>
-    </div>
-    
-    <?php
+
+        <p>
+        <?php
 function resol()
 {
 $resol='<script type="text/javascript">
@@ -28,6 +28,10 @@ return $resol;
 $var_resol=resol();
 echo $var_resol;
 ?>
+</p>
+    </div>
+    
+
     
 
 </body>
