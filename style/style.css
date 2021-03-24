@@ -23,14 +23,10 @@ a:active {color: white; text-decoration: none;}
     margin: 0.7%;
 }
 
-h1{font-size: xx-large;}
-
-h2{font-size: x-large;}
-
 /* CSS for phones*/
 
 @media (max-width: 767px){
-    
+
     h1{font-size: 12px;}
 
     h2{font-size: 8px;}
