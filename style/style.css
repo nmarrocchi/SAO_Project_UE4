@@ -15,3 +15,11 @@
 .Banner h1, .Banner h4{
     margin: 0.7%;
 }
+
+h1{
+    font-size: xx-large;
+}
+
+h4{
+    font-size: medium;
+}

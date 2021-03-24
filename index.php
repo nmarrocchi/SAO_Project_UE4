@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/menu.css">
     <title>SAO Project UE4 - Accueil</title>
 </head>
 <body>
@@ -15,5 +16,7 @@
         <h4> Sword Art Online in Unreal Engine 4 </h4>
     </div>
     
+    <?php include "menu.php" ?>
+
 </body>
 </html>
