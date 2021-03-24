@@ -27,6 +27,8 @@ a:active {color: white; text-decoration: none;}
     background-color: rgb(0, 119, 119);
 }
 
+/* CSS for phones*/
+
 @media (max-width: 767px){
     .menu li{
         margin: 2% 3%;
