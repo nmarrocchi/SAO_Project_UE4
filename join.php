@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/menu.css">
-    <title>SAO Project UE4 - Accueil</title>
+    <title>SAO Project UE4 - Nous rejoindre</title>
 </head>
 <body>
 
