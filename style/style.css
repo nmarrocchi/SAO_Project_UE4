@@ -29,6 +29,7 @@ h2{font-size: x-large;}
 
 /* CSS for phones*/
 
-@media (max-width: 767px){
-    h1{ color: red;}
+@media (width <= 1284px && height <= 2778){
+
+    h1{color: red;}
 }
