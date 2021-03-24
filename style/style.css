@@ -9,6 +9,12 @@ a:visited {color: white; text-decoration: none;}
 a:hover {color: white; text-decoration: underline;}
 a:active {color: white; text-decoration: none;}
 
+html{
+    background-image: url(../img/Background_Computer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .Banner{
     width: 100%;
     position: fixed;
@@ -29,7 +35,11 @@ h2{font-size: x-large;}
 
 /* CSS for phones*/
 
-@media (width <= 1284px && height <= 2778){
+@media (max-width < 1284px){
+
+    html{
+        background-image: url(../img/Background_Phone.png);
+    }
 
     h1{color: red;}
 }

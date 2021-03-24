@@ -29,7 +29,8 @@ a:active {color: white; text-decoration: none;}
 
 /* CSS for phones*/
 
-@media (width <= 1284px && height <= 2778){
+@media (max-width < 1284px){
+
     .menu li{
         margin: 2% 3%;
         padding: 1.2% 2%;
