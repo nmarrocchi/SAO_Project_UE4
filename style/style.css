@@ -16,7 +16,7 @@ a:active {color: white; text-decoration: none;}
     background-image: linear-gradient(to right top, #0f4596, #005da7, #0073b4, #0089be, #189fc6);    
     height: max-content;
     text-align: center;
-    border-bottom: solid 2px black;
+    border-bottom: solid 5px black;
 }
 
 .Banner h1, .Banner h4{
@@ -26,3 +26,11 @@ a:active {color: white; text-decoration: none;}
 h1{font-size: xx-large;}
 
 h2{font-size: x-large;}
+
+/* CSS for phones*/
+
+@media (max-width: 767px){
+    h1{font-size: 16px;}
+
+    h2{font-size: 12px;}
+}
